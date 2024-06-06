@@ -57,12 +57,19 @@ button {
   float: center;
   vertical-align: middle;
 }
-
+button a{
+    color: red;
+    text-decoration: none;
+}
 button:hover {
   background-color: #a81529;
   box-shadow: 0 0 0 5px black;
   color: #fff;
 }
+button a:hover{
+    color: #f3f7fe;
+}
+
 
 @media (max-width: 600px) {
     input[type="number"], button {
