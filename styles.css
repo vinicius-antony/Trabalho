@@ -46,8 +46,8 @@ input[type="submit"] :hover {
 }
 button {
   font-family: monospace;
-  color: red;
-  background-color: #f3f7fe;
+  color: white;
+  background-color: #a81529;
   border: 1px solid;
   padding: 11px 21px;
   border-radius: 6px;
@@ -58,11 +58,11 @@ button {
   vertical-align: middle;
 }
 button a{
-    color: red;
+    color: white;
     text-decoration: none;
 }
 button:hover {
-  background-color: #a81529;
+  background-color: red;
   box-shadow: 0 0 0 5px black;
   color: #fff;
 }
